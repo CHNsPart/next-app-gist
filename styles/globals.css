@@ -21,6 +21,16 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: rgb(12, 12, 12);
   }
+}
+ul{
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+ul:hover{
+  transform: scale(0.95);
+  text-shadow: 2px 2px #0070f3;
 }
